@@ -18,5 +18,5 @@ application = get_wsgi_application()
 
 #use whitenoise package to serve static file on heroku
 
-from whitenoise.django import DjanoWhiteNoise
+from whitenoise.django import DjangoWhiteNoise
 application = DjangoWhiteNoise(application)
